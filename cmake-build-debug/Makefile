@@ -129,30 +129,30 @@ main.c/fast:
 .PHONY : main.c/fast
 
 #=============================================================================
-# Target rules for targets named demo1.c
+# Target rules for targets named demo1_1.c
 
 # Build rule for target.
-demo1.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo1.c
-.PHONY : demo1.c
+demo1_1.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo1_1.c
+.PHONY : demo1_1.c
 
 # fast build rule for target.
-demo1.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.c.dir\build.make CMakeFiles/demo1.c.dir/build
-.PHONY : demo1.c/fast
+demo1_1.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_1.c.dir\build.make CMakeFiles/demo1_1.c.dir/build
+.PHONY : demo1_1.c/fast
 
 #=============================================================================
-# Target rules for targets named demo2.c
+# Target rules for targets named demo1_2.c
 
 # Build rule for target.
-demo2.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo2.c
-.PHONY : demo2.c
+demo1_2.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo1_2.c
+.PHONY : demo1_2.c
 
 # fast build rule for target.
-demo2.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.c.dir\build.make CMakeFiles/demo2.c.dir/build
-.PHONY : demo2.c/fast
+demo1_2.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_2.c.dir\build.make CMakeFiles/demo1_2.c.dir/build
+.PHONY : demo1_2.c/fast
 
 #=============================================================================
 # Target rules for targets named demo3.c
@@ -168,6 +168,32 @@ demo3.c/fast:
 .PHONY : demo3.c/fast
 
 #=============================================================================
+# Target rules for targets named demo1_3.c
+
+# Build rule for target.
+demo1_3.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo1_3.c
+.PHONY : demo1_3.c
+
+# fast build rule for target.
+demo1_3.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_3.c.dir\build.make CMakeFiles/demo1_3.c.dir/build
+.PHONY : demo1_3.c/fast
+
+#=============================================================================
+# Target rules for targets named demo3_1.c
+
+# Build rule for target.
+demo3_1.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo3_1.c
+.PHONY : demo3_1.c
+
+# fast build rule for target.
+demo3_1.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_1.c.dir\build.make CMakeFiles/demo3_1.c.dir/build
+.PHONY : demo3_1.c/fast
+
+#=============================================================================
 # Target rules for targets named demo4.c
 
 # Build rule for target.
@@ -180,53 +206,90 @@ demo4.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo4.c.dir\build.make CMakeFiles/demo4.c.dir/build
 .PHONY : demo4.c/fast
 
-demo1.obj: demo1.c.obj
-.PHONY : demo1.obj
+#=============================================================================
+# Target rules for targets named demo3_2.c
+
+# Build rule for target.
+demo3_2.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 demo3_2.c
+.PHONY : demo3_2.c
+
+# fast build rule for target.
+demo3_2.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_2.c.dir\build.make CMakeFiles/demo3_2.c.dir/build
+.PHONY : demo3_2.c/fast
+
+demo1_1.obj: demo1_1.c.obj
+.PHONY : demo1_1.obj
 
 # target to build an object file
-demo1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.c.dir\build.make CMakeFiles/demo1.c.dir/demo1.c.obj
-.PHONY : demo1.c.obj
+demo1_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_1.c.dir\build.make CMakeFiles/demo1_1.c.dir/demo1_1.c.obj
+.PHONY : demo1_1.c.obj
 
-demo1.i: demo1.c.i
-.PHONY : demo1.i
+demo1_1.i: demo1_1.c.i
+.PHONY : demo1_1.i
 
 # target to preprocess a source file
-demo1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.c.dir\build.make CMakeFiles/demo1.c.dir/demo1.c.i
-.PHONY : demo1.c.i
+demo1_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_1.c.dir\build.make CMakeFiles/demo1_1.c.dir/demo1_1.c.i
+.PHONY : demo1_1.c.i
 
-demo1.s: demo1.c.s
-.PHONY : demo1.s
+demo1_1.s: demo1_1.c.s
+.PHONY : demo1_1.s
 
 # target to generate assembly for a file
-demo1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1.c.dir\build.make CMakeFiles/demo1.c.dir/demo1.c.s
-.PHONY : demo1.c.s
+demo1_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_1.c.dir\build.make CMakeFiles/demo1_1.c.dir/demo1_1.c.s
+.PHONY : demo1_1.c.s
 
-demo2.obj: demo2.c.obj
-.PHONY : demo2.obj
+demo1_2.obj: demo1_2.c.obj
+.PHONY : demo1_2.obj
 
 # target to build an object file
-demo2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.c.dir\build.make CMakeFiles/demo2.c.dir/demo2.c.obj
-.PHONY : demo2.c.obj
+demo1_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_2.c.dir\build.make CMakeFiles/demo1_2.c.dir/demo1_2.c.obj
+.PHONY : demo1_2.c.obj
 
-demo2.i: demo2.c.i
-.PHONY : demo2.i
+demo1_2.i: demo1_2.c.i
+.PHONY : demo1_2.i
 
 # target to preprocess a source file
-demo2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.c.dir\build.make CMakeFiles/demo2.c.dir/demo2.c.i
-.PHONY : demo2.c.i
+demo1_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_2.c.dir\build.make CMakeFiles/demo1_2.c.dir/demo1_2.c.i
+.PHONY : demo1_2.c.i
 
-demo2.s: demo2.c.s
-.PHONY : demo2.s
+demo1_2.s: demo1_2.c.s
+.PHONY : demo1_2.s
 
 # target to generate assembly for a file
-demo2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo2.c.dir\build.make CMakeFiles/demo2.c.dir/demo2.c.s
-.PHONY : demo2.c.s
+demo1_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_2.c.dir\build.make CMakeFiles/demo1_2.c.dir/demo1_2.c.s
+.PHONY : demo1_2.c.s
+
+demo1_3.obj: demo1_3.c.obj
+.PHONY : demo1_3.obj
+
+# target to build an object file
+demo1_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_3.c.dir\build.make CMakeFiles/demo1_3.c.dir/demo1_3.c.obj
+.PHONY : demo1_3.c.obj
+
+demo1_3.i: demo1_3.c.i
+.PHONY : demo1_3.i
+
+# target to preprocess a source file
+demo1_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_3.c.dir\build.make CMakeFiles/demo1_3.c.dir/demo1_3.c.i
+.PHONY : demo1_3.c.i
+
+demo1_3.s: demo1_3.c.s
+.PHONY : demo1_3.s
+
+# target to generate assembly for a file
+demo1_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo1_3.c.dir\build.make CMakeFiles/demo1_3.c.dir/demo1_3.c.s
+.PHONY : demo1_3.c.s
 
 demo3.obj: demo3.c.obj
 .PHONY : demo3.obj
@@ -251,6 +314,54 @@ demo3.s: demo3.c.s
 demo3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3.c.dir\build.make CMakeFiles/demo3.c.dir/demo3.c.s
 .PHONY : demo3.c.s
+
+demo3_1.obj: demo3_1.c.obj
+.PHONY : demo3_1.obj
+
+# target to build an object file
+demo3_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_1.c.dir\build.make CMakeFiles/demo3_1.c.dir/demo3_1.c.obj
+.PHONY : demo3_1.c.obj
+
+demo3_1.i: demo3_1.c.i
+.PHONY : demo3_1.i
+
+# target to preprocess a source file
+demo3_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_1.c.dir\build.make CMakeFiles/demo3_1.c.dir/demo3_1.c.i
+.PHONY : demo3_1.c.i
+
+demo3_1.s: demo3_1.c.s
+.PHONY : demo3_1.s
+
+# target to generate assembly for a file
+demo3_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_1.c.dir\build.make CMakeFiles/demo3_1.c.dir/demo3_1.c.s
+.PHONY : demo3_1.c.s
+
+demo3_2.obj: demo3_2.c.obj
+.PHONY : demo3_2.obj
+
+# target to build an object file
+demo3_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_2.c.dir\build.make CMakeFiles/demo3_2.c.dir/demo3_2.c.obj
+.PHONY : demo3_2.c.obj
+
+demo3_2.i: demo3_2.c.i
+.PHONY : demo3_2.i
+
+# target to preprocess a source file
+demo3_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_2.c.dir\build.make CMakeFiles/demo3_2.c.dir/demo3_2.c.i
+.PHONY : demo3_2.c.i
+
+demo3_2.s: demo3_2.c.s
+.PHONY : demo3_2.s
+
+# target to generate assembly for a file
+demo3_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo3_2.c.dir\build.make CMakeFiles/demo3_2.c.dir/demo3_2.c.s
+.PHONY : demo3_2.c.s
 
 demo4.obj: demo4.c.obj
 .PHONY : demo4.obj
@@ -308,20 +419,32 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... demo1.c
-	@echo ... demo2.c
+	@echo ... demo1_1.c
+	@echo ... demo1_2.c
+	@echo ... demo1_3.c
 	@echo ... demo3.c
+	@echo ... demo3_1.c
+	@echo ... demo3_2.c
 	@echo ... demo4.c
 	@echo ... main.c
-	@echo ... demo1.obj
-	@echo ... demo1.i
-	@echo ... demo1.s
-	@echo ... demo2.obj
-	@echo ... demo2.i
-	@echo ... demo2.s
+	@echo ... demo1_1.obj
+	@echo ... demo1_1.i
+	@echo ... demo1_1.s
+	@echo ... demo1_2.obj
+	@echo ... demo1_2.i
+	@echo ... demo1_2.s
+	@echo ... demo1_3.obj
+	@echo ... demo1_3.i
+	@echo ... demo1_3.s
 	@echo ... demo3.obj
 	@echo ... demo3.i
 	@echo ... demo3.s
+	@echo ... demo3_1.obj
+	@echo ... demo3_1.i
+	@echo ... demo3_1.s
+	@echo ... demo3_2.obj
+	@echo ... demo3_2.i
+	@echo ... demo3_2.s
 	@echo ... demo4.obj
 	@echo ... demo4.i
 	@echo ... demo4.s
