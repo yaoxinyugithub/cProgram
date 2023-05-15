@@ -25,5 +25,20 @@
  * 3.4 C语言基本数据类型
  * int类型：int类型是有符号整型，即int类型的值必须是整数，可以是正整数、负整数、零，一般而言储存一个int要占用一个机器字长，早期16位IBM PC使用16位来储存一个int值，其取值范围-32768~32767，
  *     目前个人计算机一般32位，因此用32位储存一个int值，ISO C规定int的取值范围最小为-32768~32767。
- * C语言中，用特定的前缀表示使用哪种进制，0x或0X前缀表示十六进制值
+ * C语言中，用特定的前缀表示使用哪种进制，0x或0X前缀表示十六进制值，0前缀表示八进制。
+ * 其他整数类型：C语言提供3个附属关键字修饰基本整数类型：short、long、unsigned
+ * short int类型：简写为short，占用的空间可能比int类型少
+ * long int类型：简写为long，占用的空间比int多
+ * long long int类型：简写为long long（C99标准加入），占用的空间可能比long多。
+ * unsigned int类型：用于非负的场合，16位的unsigned int允许的取值范围是0~65535
+ * C90标准，添加了unsigned long int，unsigned long long int
+ *
+ * 3.4.3 使用字符：char类型
+ * char类型用于储存字符
+ *
+ * 3.4.4 _Bool类型
+ * C99标准添加了_Bool类型，表示逻辑值true、false。因为C语言用1表示true，0表示false
+ *
+ * 3.4.6 float、double和long double
+ * C标准规定，float类型必须至少能表示小数点后6位有效数字，且取值范围至少是：10的-37次方到10的37次方
 */
